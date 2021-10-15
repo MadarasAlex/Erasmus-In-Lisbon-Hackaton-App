@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:visible="true">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/transportation_points"
+            android:icon="@drawable/ic_baseline_directions_transit_24"
+            android:title="Transportation Card " />
+        <item
+            android:id="@+id/subway_network"
+            android:icon="@drawable/ic_baseline_subway_24"
+            android:title="Subway Network" />
+        <item
+            android:id="@+id/monuments"
+            android:icon="@drawable/ic_baseline_account_balance_24"
+            android:title="Monuments &amp; Cool Places" />
+        <item
+            android:id="@+id/bars"
+            android:icon="@drawable/ic_baseline_local_bar_24"
+            android:title="Bars &amp; Party Places" />
+        <item
+            android:id="@+id/football"
+            android:icon="@drawable/ic_baseline_sports_soccer_24"
+            android:title="Football" />
+        <item
+            android:id="@+id/hiking"
+            android:icon="@drawable/ic_baseline_terrain_24"
+            android:title="Hiking Trails" />
+        <item
+            android:id="@+id/museums"
+            android:icon="@drawable/ic_baseline_museum_24"
+            android:title="Museums" />
+        <item
+            android:id="@+id/surf"
+            android:icon="@drawable/ic_baseline_surfing_24"
+            android:title="Surf" />
+        <item
+            android:id="@+id/cities"
+            android:icon="@drawable/ic_baseline_location_city_24"
+            android:title="Cities Viva Card" />
+        <item
+            android:id="@+id/coffee"
+            android:icon="@drawable/ic_baseline_local_cafe_24"
+            android:title="Coffee" />
+
+
+
+    </group>
+
+</menu>
+

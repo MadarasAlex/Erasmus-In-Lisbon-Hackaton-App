@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.Material.Toolbar.Button.Navigation">
+        <item name="android:fontFamily">@font/eb_garamond</item>
+    </style>
+
+</resources>

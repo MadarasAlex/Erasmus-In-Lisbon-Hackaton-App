@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="recycler_marginTop">60dp</dimen>
+    <dimen name="paddingRecyclerView">10dp</dimen>
+    <dimen name="marginHor">10dp</dimen>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.graphics.Color" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="item"
+            type="com.example.hackaton.models.Place" />
+        <variable
+            name="listener"
+            type="com.example.hackaton.ui.interfaces.IOnClickListener" />
+
+        <variable
+            name="position"
+            type="java.lang.Integer" />
+    </data>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/glCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fitsSystemWindows="true"
+        android:paddingTop="5dp"
+        android:paddingHorizontal="10dp"
+        app:barrierMargin="15dp"
+        app:layout_constraintCircleRadius="0dp"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintWidth_percent="0.5"
+        app:alignmentMode="alignBounds"
+        app:columnOrderPreserved="false"
+        app:rowOrderPreserved="false"
+        app:useDefaultMargins="false">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="160dp"
+            android:layout_height="155dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardcol23"
+            app:cardBackgroundColor="#EE0000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:layout_gravity="start">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/april"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:adjustViewBounds="true"
+                    app:layout_constraintBottom_toTopOf="@+id/text_april"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/p25_april_bridge2" />
+
+                <TextView
+                    android:id="@+id/text_april"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/eb_garamond"
+                    android:text="@string/_25th_april_bridge"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.gridlayout.widget.GridLayout
+        >
+</layout>
